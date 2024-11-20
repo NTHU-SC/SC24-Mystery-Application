@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['CAT DETECTION - v1 2024-05-07 1-00am']
+
+roboflow:
+  workspace: aboba-zap2h
+  project: cats-e9cut
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aboba-zap2h/cats-e9cut/dataset/2
